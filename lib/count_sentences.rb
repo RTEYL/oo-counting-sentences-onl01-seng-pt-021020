@@ -18,5 +18,6 @@ class String
     new_str = self.split(/[., !, ?]/)
     new_str.delete_if do |word| word.length == 0 end
     new_str.count
+    binding.pry
   end
 end
